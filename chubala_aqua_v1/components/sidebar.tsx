@@ -49,14 +49,14 @@ export default function Sidebar({ className, activeCategory }: SidebarProps) {
   const featuredTitle = isOnFoodPage ? "THỨC ĂN NỔI BẬT" : "CÁ CẢNH NỔI BẬT"
   const featuredItems = isOnFoodPage
     ? [
-        { name: "Thức ăn cá cảnh loại 1", price: "120.000₫" },
-        { name: "Thức ăn cá cảnh loại 2", price: "150.000₫" },
-        { name: "Thức ăn cá cảnh loại 3", price: "180.000₫" },
+        { name: "Thức ăn cá cảnh loại 1", price: "120.000₫", img: "/img/1.png" },
+        { name: "Thức ăn cá cảnh loại 2", price: "150.000₫", img: "/img/2.png" },
+        { name: "Thức ăn cá cảnh loại 3", price: "180.000₫", img: "/img/3.png" },
       ]
     : [
-        { name: "Cá Betta Halfmoon 1", price: "120.000₫" },
-        { name: "Cá Koi Nhật Bản", price: "350.000₫" },
-        { name: "Cá Rồng Huyết Long", price: "1.200.000₫" },
+        { name: "Cá Betta Halfmoon 1", price: "120.000₫", img: "/img/ca1.jpg" },
+        { name: "Cá Koi Nhật Bản", price: "350.000₫", img: "/img/ca2.jpg" },
+        { name: "Cá Rồng Huyết Long", price: "1.200.000₫", img: "/img/ca3.jpg" },
       ]
 
   return (
@@ -85,7 +85,9 @@ export default function Sidebar({ className, activeCategory }: SidebarProps) {
         <div className="p-4 space-y-4">
           {featuredItems.map((item, index) => (
             <div key={index} className="flex gap-3">
-              <div className="w-20 h-20 bg-gray-200 rounded-md flex-shrink-0"></div>
+              <div className="w-20 h-20 bg-gray-200 rounded-md flex-shrink-0">
+              <img src={item.img} alt={item.name}/>
+              </div>
               <div>
                 <h3 className="font-medium text-sm hover:text-green-600">{item.name}</h3>
                 <p className="text-red-600 font-medium text-sm mt-1">{item.price}</p>

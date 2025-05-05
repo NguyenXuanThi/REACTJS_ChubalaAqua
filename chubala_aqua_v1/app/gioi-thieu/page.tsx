@@ -3,6 +3,7 @@ import Link from "next/link"
 import { ChevronRight } from "lucide-react"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
+import iuh from "/img/chubala.jpg"
 
 export default function AboutPage() {
   return (
@@ -22,16 +23,20 @@ export default function AboutPage() {
       </div>
 
       <main className="container mx-auto px-4 py-8 flex-grow">
-        <h1 className="text-3xl font-bold text-center mb-8">GIỚI THIỆU VỀ CỬA HÀNG CÁ CẢNH VIỆT NAM</h1>
+        <h1 className="text-3xl font-bold text-center mb-8">GIỚI THIỆU VỀ CỬA HÀNG CÁ CẢNH CHUBALA AQUA</h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           <div className="relative aspect-video rounded-lg overflow-hidden">
-            <Image src="/placeholder.svg?height=400&width=600" alt="Cửa hàng cá cảnh" fill className="object-cover" />
+            <img src="/img/chubala.jpg" alt="" />
           </div>
           <div className="flex flex-col justify-center">
-            <h2 className="text-2xl font-bold mb-4 text-green-600">Chào mừng đến với Cá Cảnh Việt Nam</h2>
+            <h2 className="text-2xl font-bold mb-4 text-green-600">Chào mừng đến với Cá Cảnh Chubala Aqua</h2>
+            <h1>Nguyễn Xuân Thi - 22723611</h1>
+            <h1>Hà Xuân Phú - 22691261</h1>
+            <h1>Lưu Văn Phát - 22691081</h1>
+            <h1>   </h1>
             <p className="text-gray-700 mb-4">
-              Cá Cảnh Việt Nam được thành lập vào năm 2010, là một trong những cửa hàng cá cảnh uy tín hàng đầu tại Việt
+              Chubala Aqua được thành lập vào năm 2010, là một trong những cửa hàng cá cảnh uy tín hàng đầu tại Việt
               Nam. Với hơn 13 năm kinh nghiệm trong lĩnh vực thủy sinh và cá cảnh, chúng tôi tự hào mang đến cho khách
               hàng những sản phẩm chất lượng cao và dịch vụ chuyên nghiệp.
             </p>
@@ -39,7 +44,8 @@ export default function AboutPage() {
               Chúng tôi chuyên cung cấp các loại cá cảnh đa dạng từ những loài phổ biến đến những loài cá quý hiếm, đáp
               ứng nhu cầu của cả người mới bắt đầu và những người chơi cá chuyên nghiệp. Bên cạnh đó, chúng tôi còn cung
               cấp đầy đủ các loại thức ăn, thuốc, phụ kiện và thiết bị cần thiết cho việc nuôi cá cảnh.
-            </p>
+              </p>
+            
           </div>
         </div>
 
@@ -160,8 +166,8 @@ export default function AboutPage() {
             </div>
             <div className="text-center">
               <h3 className="font-bold mb-2">Email</h3>
-              <p>info@cacanhvietnam.com</p>
-              <p>support@cacanhvietnam.com</p>
+              <p>info@chubalaaqua.com</p>
+              <p>support@chubalaaqua.com</p>
             </div>
           </div>
           <div className="text-center mt-6">

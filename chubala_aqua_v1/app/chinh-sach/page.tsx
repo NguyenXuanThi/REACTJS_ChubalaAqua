@@ -6,8 +6,8 @@ import Footer from "@/components/footer"
 import Sidebar from "@/components/sidebar"
 
 export const metadata: Metadata = {
-  title: "Chính sách - Cá Cảnh Thiên Đức",
-  description: "Các chính sách mua hàng, vận chuyển, đổi trả và bảo hành của Cá Cảnh Thiên Đức",
+  title: "Chính sách - Cá Cảnh Chubala Aqua",
+  description: "Các chính sách mua hàng, vận chuyển, đổi trả và bảo hành của Cá Cảnh Chubala Aqua",
 }
 
 export default function PolicyPage() {
@@ -41,7 +41,7 @@ export default function PolicyPage() {
                   <h2 className="text-xl font-bold text-green-600 mb-4">Chính sách mua hàng</h2>
                   <div className="prose max-w-none">
                     <p>
-                      Cá Cảnh Thiên Đức cam kết cung cấp các loại cá cảnh chất lượng cao với giá cả hợp lý. Chúng tôi
+                      Cá Cảnh Chubala Aqua cam kết cung cấp các loại cá cảnh chất lượng cao với giá cả hợp lý. Chúng tôi
                       luôn đảm bảo cá được chăm sóc trong môi trường tốt nhất trước khi đến tay khách hàng.
                     </p>
                     <h3 className="text-lg font-semibold mt-4">Quy trình mua hàng</h3>
@@ -64,7 +64,7 @@ export default function PolicyPage() {
                   <h2 className="text-xl font-bold text-green-600 mb-4">Chính sách vận chuyển</h2>
                   <div className="prose max-w-none">
                     <p>
-                      Cá Cảnh Thiên Đức sử dụng các phương pháp vận chuyển đặc biệt để đảm bảo cá cảnh đến tay khách
+                      Cá Cảnh Chubala Aqua sử dụng các phương pháp vận chuyển đặc biệt để đảm bảo cá cảnh đến tay khách
                       hàng trong tình trạng khỏe mạnh nhất.
                     </p>
                     <h3 className="text-lg font-semibold mt-4">Thời gian vận chuyển</h3>
@@ -112,7 +112,7 @@ export default function PolicyPage() {
                   <h2 className="text-xl font-bold text-green-600 mb-4">Chính sách bảo hành</h2>
                   <div className="prose max-w-none">
                     <p>
-                      Cá Cảnh Thiên Đức cung cấp dịch vụ tư vấn miễn phí về cách chăm sóc và nuôi dưỡng cá cảnh trong
+                      Cá Cảnh Chubala Aqua cung cấp dịch vụ tư vấn miễn phí về cách chăm sóc và nuôi dưỡng cá cảnh trong
                       suốt thời gian bạn sở hữu cá của chúng tôi.
                     </p>
                     <h3 className="text-lg font-semibold mt-4">Cam kết của chúng tôi</h3>
@@ -133,7 +133,7 @@ export default function PolicyPage() {
                   <h2 className="text-xl font-bold text-green-600 mb-4">Chính sách bảo mật</h2>
                   <div className="prose max-w-none">
                     <p>
-                      Cá Cảnh Thiên Đức cam kết bảo vệ thông tin cá nhân của khách hàng. Chúng tôi không chia sẻ thông
+                      Cá Cảnh Chubala Aqua cam kết bảo vệ thông tin cá nhân của khách hàng. Chúng tôi không chia sẻ thông
                       tin của bạn với bất kỳ bên thứ ba nào ngoại trừ các đối tác vận chuyển để thực hiện giao hàng.
                     </p>
                     <h3 className="text-lg font-semibold mt-4">Thông tin chúng tôi thu thập</h3>

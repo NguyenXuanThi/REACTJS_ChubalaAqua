@@ -64,7 +64,7 @@ export const blogPostsData: BlogPost[] = [
       
       <p>Việc lựa chọn đúng loại thức ăn không chỉ giúp cá khỏe mạnh mà còn làm tăng màu sắc và tuổi thọ của chúng. Hãy dành thời gian tìm hiểu về loại cá của bạn để có thể chăm sóc chúng một cách tốt nhất.</p>
     `,
-    image: "/placeholder.svg?height=400&width=600&text=Thức+ăn+cá+cảnh",
+    image: "/img/chonthucan.jpg",
     category: "Chăm sóc cá cảnh",
     author: "Nguyễn Văn A",
     date: "15/05/2023",
@@ -125,7 +125,7 @@ export const blogPostsData: BlogPost[] = [
       
       <p>Việc phát hiện sớm và điều trị kịp thời các bệnh ở cá cảnh sẽ giúp cá nhanh chóng hồi phục và sống khỏe mạnh. Hãy luôn quan sát cá thường xuyên để phát hiện bất kỳ dấu hiệu bất thường nào.</p>
     `,
-    image: "/placeholder.svg?height=400&width=600&text=Bệnh+cá+cảnh",
+    image: "/img/benh-dom-trang-o-ca-kieng.jpg",
     category: "Sức khỏe cá cảnh",
     author: "Trần Thị B",
     date: "02/06/2023",
@@ -205,7 +205,7 @@ export const blogPostsData: BlogPost[] = [
       
       <p>Với những hướng dẫn cơ bản trên, hy vọng bạn sẽ có được một bể thủy sinh đẹp và bền vững. Hãy nhớ rằng, thủy sinh là một sở thích đòi hỏi sự kiên nhẫn và học hỏi liên tục.</p>
     `,
-    image: "/placeholder.svg?height=400&width=600&text=Bể+thủy+sinh",
+    image: "/img/setup.jpg",
     category: "Thủy sinh",
     author: "Lê Văn C",
     date: "20/06/2023",
@@ -281,7 +281,7 @@ export const blogPostsData: BlogPost[] = [
       
       <p>Với 10 loài cá cảnh dễ nuôi trên, hy vọng bạn sẽ chọn được loài cá phù hợp để bắt đầu sở thích nuôi cá cảnh của mình. Hãy nhớ rằng, mỗi loài cá đều có những đặc điểm và nhu cầu riêng, vì vậy hãy tìm hiểu kỹ trước khi quyết định.</p>
     `,
-    image: "/placeholder.svg?height=400&width=600&text=Cá+cảnh+dễ+nuôi",
+    image: "/img/top10.jpg",
     category: "Kiến thức cá cảnh",
     author: "Phạm Văn D",
     date: "10/07/2023",
@@ -411,7 +411,7 @@ export const blogPostsData: BlogPost[] = [
       
       <p>Việc xử lý nước bể cá đúng cách là yếu tố quan trọng nhất để đảm bảo sức khỏe và tuổi thọ cho cá cảnh. Hãy dành thời gian để hiểu và thực hiện đúng các bước xử lý nước, bạn sẽ thấy cá khỏe mạnh và bể cá đẹp hơn.</p>
     `,
-    image: "/placeholder.svg?height=400&width=600&text=Xử+lý+nước+bể+cá",
+    image: "/img/098eaa08cd39e2187cedab6969657b52.jpg",
     category: "Chăm sóc cá cảnh",
     author: "Nguyễn Thị E",
     date: "25/07/2023",
@@ -577,7 +577,7 @@ export const blogPostsData: BlogPost[] = [
       
       <p>Việc nuôi trồng thức ăn tự nhiên tại nhà không chỉ giúp tiết kiệm chi phí mà còn đảm bảo nguồn thức ăn tươi, sạch và giàu dinh dưỡng cho cá cảnh. Hãy thử nuôi một vài loại thức ăn tự nhiên và bạn sẽ thấy sự khác biệt rõ rệt về sức khỏe và màu sắc của cá.</p>
     `,
-    image: "/placeholder.svg?height=400&width=600&text=Thức+ăn+tự+nhiên",
+    image: "/img/tunhienjpg.jpg",
     category: "Thức ăn cá cảnh",
     author: "Trần Văn F",
     date: "05/08/2023",

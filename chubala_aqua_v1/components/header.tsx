@@ -77,7 +77,7 @@ export default function Header() {
         <div className="py-4 flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-4 md:mb-0">
             <Link href="/" className="text-2xl font-bold">
-              CÁ CẢNH THIÊN ĐỨC
+              CHUBALA AQUA
             </Link>
           </div>
 

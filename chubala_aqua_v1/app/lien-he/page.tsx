@@ -82,7 +82,7 @@ export default function ContactPage() {
 
                   <div>
                     <h3 className="font-medium text-gray-700">Email chúng tôi</h3>
-                    <p className="text-gray-600 mt-1">info@cacanhthienduc.com</p>
+                    <p className="text-gray-600 mt-1">info@chubalaaqua.com</p>
                   </div>
 
                   <div>

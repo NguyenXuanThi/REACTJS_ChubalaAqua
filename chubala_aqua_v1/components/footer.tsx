@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">VỀ CHÚNG TÔI</h3>
             <p className="text-sm mb-4">
-              Cá Cảnh Thiên Đức chuyên cung cấp các loại cá cảnh chất lượng cao, đảm bảo sức khỏe và vẻ đẹp cho bể cá
+              Chubala Aqua chuyên cung cấp các loại cá cảnh chất lượng cao, đảm bảo sức khỏe và vẻ đẹp cho bể cá
               của bạn.
             </p>
             <div className="flex space-x-3">
@@ -40,7 +40,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 flex-shrink-0" />
-                <span>info@cacanhthienduc.com</span>
+                <span>info@chubalaaqua.com</span>
               </li>
             </ul>
           </div>
@@ -98,7 +98,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-green-500 mt-8 pt-6 text-center text-sm">
-          <p>© {new Date().getFullYear()} Cá Cảnh Thiên Đức. Tất cả quyền được bảo lưu.</p>
+          <p>© {new Date().getFullYear()} Chubala Aqua. Tất cả quyền được bảo lưu.</p>
         </div>
       </div>
     </footer>

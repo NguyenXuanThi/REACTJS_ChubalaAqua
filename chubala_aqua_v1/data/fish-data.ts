@@ -29,7 +29,7 @@ export const fishData: Fish[] = [
     scientificName: "Betta splendens",
     price: 150000,
     originalPrice: 180000,
-    image: "/placeholder.svg?height=300&width=300&text=Betta+Halfmoon+Đỏ",
+    image: "/img/ca1.jpg",
     description:
       "Cá Betta Halfmoon Đỏ có màu sắc rực rỡ với đuôi hình bán nguyệt đẹp mắt. Loài cá này được yêu thích bởi vẻ đẹp sang trọng và dễ chăm sóc.",
     origin: "Thái Lan",
@@ -53,7 +53,7 @@ export const fishData: Fish[] = [
     scientificName: "Betta splendens",
     price: 250000,
     originalPrice: 300000,
-    image: "/placeholder.svg?height=300&width=300&text=Betta+Galaxy",
+    image: "/img/ca2.jpg",
     description:
       "Cá Betta Halfmoon Galaxy có màu xanh đậm với các đốm trắng như những vì sao trên bầu trời đêm. Đuôi và vây dài, mở rộng tạo thành hình bán nguyệt hoàn hảo.",
     origin: "Thái Lan",
@@ -77,7 +77,7 @@ export const fishData: Fish[] = [
     scientificName: "Betta splendens",
     price: 200000,
     originalPrice: 200000,
-    image: "/placeholder.svg?height=300&width=300&text=Betta+Koi+Nemo",
+    image: "/img/ca3.jpg",
     description:
       "Cá Betta Koi Nemo có màu sắc đa dạng với các đốm đỏ, trắng và đen giống như cá Koi Nhật Bản. Đây là một trong những dòng Betta được săn đón nhất hiện nay.",
     origin: "Thái Lan",
@@ -101,7 +101,7 @@ export const fishData: Fish[] = [
     scientificName: "Symphysodon aequifasciatus",
     price: 450000,
     originalPrice: 500000,
-    image: "/placeholder.svg?height=300&width=300&text=Đĩa+Blue+Diamond",
+    image: "/img/ca4.jpg",
     description:
       "Cá Đĩa Blue Diamond có màu xanh dương đậm, thân hình tròn dẹt đặc trưng. Loài cá này được mệnh danh là 'Vua của bể thủy sinh' với vẻ đẹp quý phái.",
     origin: "Nam Mỹ (nuôi sinh sản)",
@@ -125,7 +125,7 @@ export const fishData: Fish[] = [
     scientificName: "Symphysodon aequifasciatus",
     price: 400000,
     originalPrice: 450000,
-    image: "/placeholder.svg?height=300&width=300&text=Đĩa+Red+Melon",
+    image: "/img/ca5.jpg",
     description:
       "Cá Đĩa Red Melon có màu đỏ cam rực rỡ, thân hình tròn dẹt đặc trưng. Loài cá này mang vẻ đẹp nhiệt đới và sống động cho bể thủy sinh.",
     origin: "Nam Mỹ (nuôi sinh sản)",
@@ -149,7 +149,7 @@ export const fishData: Fish[] = [
     scientificName: "Scleropages formosus",
     price: 15000000,
     originalPrice: 18000000,
-    image: "/placeholder.svg?height=300&width=300&text=Rồng+Huyết+Long",
+    image: "/img/ca6.jpg",
     description:
       "Cá Rồng Huyết Long có màu đỏ rực với vảy lớn óng ánh như vàng. Đây là một trong những loài cá cảnh đắt giá và được săn đón nhất, biểu tượng của sự giàu sang và may mắn.",
     origin: "Đông Nam Á",
@@ -173,7 +173,7 @@ export const fishData: Fish[] = [
     scientificName: "Scleropages formosus",
     price: 12000000,
     originalPrice: 12000000,
-    image: "/placeholder.svg?height=300&width=300&text=Rồng+Bạch+Kim",
+    image: "/img/ca7.jpg",
     description:
       "Cá Rồng Bạch Kim có màu bạc ánh kim với vảy lớn sáng bóng. Loài cá này mang vẻ đẹp quý tộc và sang trọng, là biểu tượng của sự thịnh vượng.",
     origin: "Đông Nam Á",
@@ -197,7 +197,7 @@ export const fishData: Fish[] = [
     scientificName: "Cyprinus carpio koi",
     price: 1500000,
     originalPrice: 1800000,
-    image: "/placeholder.svg?height=300&width=300&text=Koi+Kohaku",
+    image: "/img/ca8.jpg",
     description:
       "Cá Koi Kohaku có nền trắng với các đốm đỏ tươi. Đây là một trong những dòng Koi truyền thống và được yêu thích nhất, biểu tượng cho sự may mắn và thịnh vượng.",
     origin: "Nhật Bản",
@@ -221,7 +221,7 @@ export const fishData: Fish[] = [
     scientificName: "Cyprinus carpio koi",
     price: 1800000,
     originalPrice: 2000000,
-    image: "/placeholder.svg?height=300&width=300&text=Koi+Showa",
+    image: "/img/ca9.jpg",
     description:
       "Cá Koi Showa có nền đen với các đốm đỏ và trắng. Đây là một trong những dòng Koi truyền thống của Nhật Bản, mang vẻ đẹp mạnh mẽ và cá tính.",
     origin: "Nhật Bản",
@@ -245,7 +245,7 @@ export const fishData: Fish[] = [
     scientificName: "Cichlasoma sp.",
     price: 1200000,
     originalPrice: 1500000,
-    image: "/placeholder.svg?height=300&width=300&text=La+Hán+King+Kamfa",
+    image: "/img/ca10.jpg",
     description:
       "Cá La Hán King Kamfa có đầu to, u đầu phát triển mạnh và màu sắc rực rỡ. Đây là một trong những dòng La Hán cao cấp được săn đón nhất hiện nay.",
     origin: "Thái Lan (nuôi sinh sản)",
@@ -269,7 +269,7 @@ export const fishData: Fish[] = [
     scientificName: "Cichlasoma sp.",
     price: 1000000,
     originalPrice: 1200000,
-    image: "/placeholder.svg?height=300&width=300&text=La+Hán+Red+Dragon",
+    image: "/img/ca11.jpg",
     description:
       "Cá La Hán Red Dragon có màu đỏ rực với u đầu phát triển tốt. Loài cá này mang vẻ đẹp mạnh mẽ và uy nghiêm, được nhiều người chơi cá cảnh yêu thích.",
     origin: "Thái Lan (nuôi sinh sản)",
@@ -293,7 +293,7 @@ export const fishData: Fish[] = [
     scientificName: "Paracheirodon innesi",
     price: 15000,
     originalPrice: 20000,
-    image: "/placeholder.svg?height=300&width=300&text=Neon+Tetra",
+    image: "/img/ca12.jpg",
     description:
       "Cá Neon Tetra có thân nhỏ với dải màu xanh neon và đỏ rực rỡ. Loài cá này bơi theo đàn, tạo nên khung cảnh sống động và đẹp mắt trong bể thủy sinh.",
     origin: "Nam Mỹ",
@@ -317,7 +317,7 @@ export const fishData: Fish[] = [
     scientificName: "Xiphophorus maculatus",
     price: 25000,
     originalPrice: 25000,
-    image: "/placeholder.svg?height=300&width=300&text=Hồng+Két",
+    image: "/img/ca13.jpg",
     description:
       "Cá Hồng Két có nhiều màu sắc đa dạng, thân hình tròn và dễ thương. Loài cá này sinh sản nhanh và dễ chăm sóc, phù hợp cho người mới bắt đầu.",
     origin: "Trung Mỹ",
@@ -341,7 +341,7 @@ export const fishData: Fish[] = [
     scientificName: "Poecilia reticulata",
     price: 35000,
     originalPrice: 40000,
-    image: "/placeholder.svg?height=300&width=300&text=Guppy+Full+Red",
+    image: "/img/ca14.jpg",
     description:
       "Cá Mún Guppy Full Red có màu đỏ rực từ đầu đến đuôi, đặc biệt là cá đực có đuôi dài và rực rỡ. Loài cá này dễ nuôi và sinh sản nhanh.",
     origin: "Nam Mỹ (nuôi sinh sản)",
@@ -365,7 +365,7 @@ export const fishData: Fish[] = [
     scientificName: "Poecilia reticulata",
     price: 45000,
     originalPrice: 50000,
-    image: "/placeholder.svg?height=300&width=300&text=Guppy+Dumbo+Mosaic",
+    image: "/img/ca15.jpg",
     description:
       "Cá Mún Guppy Dumbo Mosaic có vây ngực lớn (dumbo) và màu sắc đa dạng như khảm. Đây là một trong những dòng Guppy đẹp và được ưa chuộng hiện nay.",
     origin: "Nam Mỹ (nuôi sinh sản)",
@@ -389,7 +389,7 @@ export const fishData: Fish[] = [
     scientificName: "Pterophyllum scalare",
     price: 120000,
     originalPrice: 150000,
-    image: "/placeholder.svg?height=300&width=300&text=Ali+Albino",
+    image: "/img/ca16.jpg",
     description:
       "Cá Ali Albino có màu trắng đục với mắt đỏ đặc trưng. Thân hình dẹp, vây dài tạo nên vẻ đẹp thanh thoát và quý phái trong bể thủy sinh.",
     origin: "Nam Mỹ (nuôi sinh sản)",
@@ -413,7 +413,7 @@ export const fishData: Fish[] = [
     scientificName: "Pterophyllum scalare",
     price: 150000,
     originalPrice: 180000,
-    image: "/placeholder.svg?height=300&width=300&text=Ali+Koi",
+    image: "/img/ca17.jpg",
     description:
       "Cá Ali Koi có màu sắc đa dạng với các đốm đỏ, đen và trắng giống như cá Koi. Loài cá này mang vẻ đẹp độc đáo và sang trọng cho bể thủy sinh.",
     origin: "Nam Mỹ (nuôi sinh sản)",
@@ -437,7 +437,7 @@ export const fishData: Fish[] = [
     scientificName: "Metynnis argenteus",
     price: 80000,
     originalPrice: 100000,
-    image: "/placeholder.svg?height=300&width=300&text=Dĩa+Bạc",
+    image: "/img/ca18.jpg",
     description:
       "Cá Dĩa Bạc có thân hình tròn dẹp với màu bạc ánh kim. Loài cá này bơi theo đàn, tạo nên khung cảnh sống động và đẹp mắt trong bể thủy sinh.",
     origin: "Nam Mỹ",
@@ -461,7 +461,7 @@ export const fishData: Fish[] = [
     scientificName: "Carassius auratus",
     price: 180000,
     originalPrice: 200000,
-    image: "/placeholder.svg?height=300&width=300&text=Phượng+Hoàng+Đỏ",
+    image: "/img/ca19.jpg",
     description:
       "Cá Phượng Hoàng Đỏ có màu đỏ rực với đuôi và vây dài, phát triển. Loài cá này mang vẻ đẹp sang trọng và quý phái, biểu tượng cho sự may mắn.",
     origin: "Trung Quốc (nuôi sinh sản)",
@@ -485,7 +485,7 @@ export const fishData: Fish[] = [
     scientificName: "Carassius auratus",
     price: 250000,
     originalPrice: 300000,
-    image: "/placeholder.svg?height=300&width=300&text=Vàng+Ranchu",
+    image: "/img/ca20.jpg",
     description:
       "Cá Vàng Ranchu có thân hình tròn, đầu to với u đầu phát triển và không có vây lưng. Đây là một trong những dòng cá vàng cao cấp của Nhật Bản.",
     origin: "Nhật Bản (nuôi sinh sản)",
