@@ -11,8 +11,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Cá Cảnh Chubala Aqua",
-  description: "Cung cấp các loại cá cảnh chất lượng cao, đảm bảo sức khỏe và vẻ đẹp cho bể cá của bạn.",
-    generator: 'v0.dev'
+  description: "Cung cấp các loại cá cảnh chất lượng cao, đảm bảo sức khỏe và vẻ đẹp cho bể cá của bạn."
 }
 
 export default function RootLayout({

@@ -2,6 +2,7 @@
 
 import Link from "next/link"
 import { Search, ShoppingCart, Menu, Phone, User, LogOut, Heart, Package } from "lucide-react"
+import logo from "../public/img/Logo.png"
 import { Button } from "@/components/ui/button"
 import { useCart } from "@/context/cart-context"
 import { useAuth } from "@/context/auth-context"
@@ -77,7 +78,7 @@ export default function Header() {
         <div className="py-4 flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-4 md:mb-0">
             <Link href="/" className="text-2xl font-bold">
-              CHUBALA AQUA
+              <img src={logo.src} alt="Logo" className="h-24 w-27 mr-2 rounded-xl" />
             </Link>
           </div>
 
