@@ -54,7 +54,7 @@ export default function BlogPostPage() {
           <div className="bg-white rounded-lg shadow-md p-8 text-center">
             <div className="text-gray-500 mb-4">Không tìm thấy bài viết</div>
             <Link href="/tin-tuc">
-              <Button className="bg-green-600 hover:bg-green-700">Quay lại trang tin tức</Button>
+              <Button className="bg-[#00335f] hover:bg-green-700">Quay lại trang tin tức</Button>
             </Link>
           </div>
         </div>
@@ -70,11 +70,11 @@ export default function BlogPostPage() {
       <div className="bg-gray-100 py-3 border-b">
         <div className="container mx-auto px-4">
           <div className="flex items-center text-sm text-gray-600">
-            <Link href="/" className="hover:text-green-600">
+            <Link href="/" className="hover:text-[#194f91]">
               Trang chủ
             </Link>
             <ChevronRight className="h-3 w-3 mx-2" />
-            <Link href="/tin-tuc" className="hover:text-green-600">
+            <Link href="/tin-tuc" className="hover:text-[#194f91]">
               Tin tức
             </Link>
             <ChevronRight className="h-3 w-3 mx-2" />
@@ -162,7 +162,7 @@ export default function BlogPostPage() {
                       </Link>
                       <div className="p-3">
                         <Link href={`/tin-tuc/${relatedPost.slug}`}>
-                          <h3 className="font-medium text-sm hover:text-green-600 line-clamp-2 mb-2">
+                          <h3 className="font-medium text-sm hover:text-[#194f91] line-clamp-2 mb-2">
                             {relatedPost.title}
                           </h3>
                         </Link>
@@ -222,7 +222,7 @@ export default function BlogPostPage() {
                       </Link>
                       <div>
                         <Link href={`/tin-tuc/${popularPost.slug}`}>
-                          <h4 className="font-medium text-sm hover:text-green-600 line-clamp-2">{popularPost.title}</h4>
+                          <h4 className="font-medium text-sm hover:text-[#194f91] line-clamp-2">{popularPost.title}</h4>
                         </Link>
                         <div className="flex items-center text-xs text-gray-500 mt-1">
                           <Calendar className="h-3 w-3 mr-1" />

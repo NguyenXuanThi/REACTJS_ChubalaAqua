@@ -98,7 +98,7 @@ export default function ProductDetail({ product }: ProductDetailProps) {
               ({useReviews().getProductReviews(product.id).length} đánh giá)
             </span>
             <span className="mx-2 text-gray-300">|</span>
-            <span className="text-sm text-green-600">Còn hàng</span>
+            <span className="text-sm text-[#194f91]">Còn hàng</span>
           </div>
 
           <div className="mb-4">
@@ -118,19 +118,19 @@ export default function ProductDetail({ product }: ProductDetailProps) {
 
             <div className="grid grid-cols-2 gap-4 text-sm">
               <div className="flex items-center">
-                <Check className="h-4 w-4 text-green-600 mr-2" />
+                <Check className="h-4 w-4 text-[#194f91] mr-2" />
                 <span>Giao hàng toàn quốc</span>
               </div>
               <div className="flex items-center">
-                <Check className="h-4 w-4 text-green-600 mr-2" />
+                <Check className="h-4 w-4 text-[#194f91] mr-2" />
                 <span>Đổi trả trong 7 ngày</span>
               </div>
               <div className="flex items-center">
-                <Check className="h-4 w-4 text-green-600 mr-2" />
+                <Check className="h-4 w-4 text-[#194f91] mr-2" />
                 <span>Thanh toán khi nhận hàng</span>
               </div>
               <div className="flex items-center">
-                <Check className="h-4 w-4 text-green-600 mr-2" />
+                <Check className="h-4 w-4 text-[#194f91] mr-2" />
                 <span>Sản phẩm chính hãng</span>
               </div>
             </div>
@@ -164,7 +164,7 @@ export default function ProductDetail({ product }: ProductDetailProps) {
 
           <div className="flex flex-col sm:flex-row gap-3">
             <Button
-              className="bg-green-600 hover:bg-green-700 flex-1 h-12"
+              className="bg-[#00335f] hover:bg-green-700 flex-1 h-12"
               onClick={handleAddToCart}
               disabled={isAdding}
             >
@@ -172,11 +172,11 @@ export default function ProductDetail({ product }: ProductDetailProps) {
               {isAdding ? "ĐANG THÊM..." : "THÊM VÀO GIỎ HÀNG"}
             </Button>
 
-            <Button variant="outline" className="border-green-600 text-green-600 hover:bg-green-50">
+            <Button variant="outline" className="border-green-600 text-[#194f91] hover:bg-green-50">
               <Heart className="h-5 w-5" />
             </Button>
 
-            <Button variant="outline" className="border-green-600 text-green-600 hover:bg-green-50">
+            <Button variant="outline" className="border-green-600 text-[#194f91] hover:bg-green-50">
               <Share2 className="h-5 w-5" />
             </Button>
           </div>

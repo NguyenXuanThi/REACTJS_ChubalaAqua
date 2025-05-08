@@ -138,7 +138,7 @@ export default function OrdersPage() {
                       height={100}
                       className="rounded-full"
                     />
-                    <button className="absolute bottom-0 right-0 bg-green-600 text-white p-1 rounded-full">
+                    <button className="absolute bottom-0 right-0 bg-[#00335f] text-white p-1 rounded-full">
                       <Pencil className="h-4 w-4" />
                     </button>
                   </div>
@@ -156,7 +156,7 @@ export default function OrdersPage() {
                   </Link>
                   <Link
                     href="/account/orders"
-                    className="flex items-center space-x-2 px-3 py-2 rounded-md bg-green-50 text-green-600 font-medium"
+                    className="flex items-center space-x-2 px-3 py-2 rounded-md bg-green-50 text-[#194f91] font-medium"
                   >
                     <ShoppingBag className="h-5 w-5" />
                     <span>Đơn hàng của tôi</span>
@@ -201,7 +201,7 @@ export default function OrdersPage() {
                         <p className="mt-1 text-sm text-gray-500">Bạn chưa có đơn hàng nào.</p>
                         <div className="mt-6">
                           <Link href="/ca-canh">
-                            <Button className="bg-green-600 hover:bg-green-700">Mua sắm ngay</Button>
+                            <Button className="bg-[#00335f] hover:bg-green-700">Mua sắm ngay</Button>
                           </Link>
                         </div>
                       </div>
@@ -248,7 +248,7 @@ export default function OrdersPage() {
                               ))}
                               <div className="mt-4 text-right">
                                 <p className="text-sm text-gray-500">Tổng tiền:</p>
-                                <p className="text-lg font-bold text-green-600">{formatCurrency(order.total)}</p>
+                                <p className="text-lg font-bold text-[#194f91]">{formatCurrency(order.total)}</p>
                               </div>
                             </div>
                           </div>

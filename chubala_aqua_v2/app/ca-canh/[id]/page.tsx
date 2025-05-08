@@ -238,7 +238,7 @@ export default function FishDetailPage() {
                     <div className="flex items-center mb-4">
                       <span className="text-gray-600 mr-2">Tình trạng:</span>
                       {fish.inStock ? (
-                        <span className="text-green-600 font-medium">Còn hàng</span>
+                        <span className="text-[#194f91] font-medium">Còn hàng</span>
                       ) : (
                         <span className="text-red-600 font-medium">Hết hàng</span>
                       )}
@@ -256,7 +256,7 @@ export default function FishDetailPage() {
                       </button>
                     </div>
                     <Button
-                      className="bg-green-600 hover:bg-green-700 flex-1"
+                      className="bg-[#00335f] hover:bg-green-700 flex-1"
                       onClick={handleAddToCart}
                       disabled={isAdding || !fish.inStock}
                     >
@@ -395,7 +395,7 @@ export default function FishDetailPage() {
                       </Link>
                       <div className="p-3">
                         <Link href={`/ca-canh/${relatedFish.id}`}>
-                          <h3 className="font-medium text-sm mb-2 hover:text-green-600 line-clamp-2 min-h-[2.5rem]">
+                          <h3 className="font-medium text-sm mb-2 hover:text-[#194f91] line-clamp-2 min-h-[2.5rem]">
                             {relatedFish.name}
                           </h3>
                         </Link>
@@ -410,7 +410,7 @@ export default function FishDetailPage() {
                         </div>
 
                         <Button
-                          className="w-full bg-green-600 hover:bg-green-700 text-white text-sm"
+                          className="w-full bg-[#00335f] hover:bg-green-700 text-white text-sm"
                           onClick={() => {
                             addItem(relatedFish as any, 1)
                             toast({

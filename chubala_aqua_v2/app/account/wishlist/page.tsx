@@ -125,7 +125,7 @@ export default function WishlistPage() {
                       height={100}
                       className="rounded-full"
                     />
-                    <button className="absolute bottom-0 right-0 bg-green-600 text-white p-1 rounded-full">
+                    <button className="absolute bottom-0 right-0 bg-[#00335f] text-white p-1 rounded-full">
                       <Pencil className="h-4 w-4" />
                     </button>
                   </div>
@@ -150,7 +150,7 @@ export default function WishlistPage() {
                   </Link>
                   <Link
                     href="/account/wishlist"
-                    className="flex items-center space-x-2 px-3 py-2 rounded-md bg-green-50 text-green-600 font-medium"
+                    className="flex items-center space-x-2 px-3 py-2 rounded-md bg-green-50 text-[#194f91] font-medium"
                   >
                     <Heart className="h-5 w-5" />
                     <span>Sản phẩm yêu thích</span>
@@ -187,7 +187,7 @@ export default function WishlistPage() {
                       <p className="mt-1 text-sm text-gray-500">Bạn chưa thêm sản phẩm nào vào danh sách yêu thích.</p>
                       <div className="mt-6">
                         <Link href="/ca-canh">
-                          <Button className="bg-green-600 hover:bg-green-700">Khám phá sản phẩm</Button>
+                          <Button className="bg-[#00335f] hover:bg-green-700">Khám phá sản phẩm</Button>
                         </Link>
                       </div>
                     </div>
@@ -222,20 +222,20 @@ export default function WishlistPage() {
                           </div>
                           <div className="p-4">
                             <Link href={getProductUrl(product)}>
-                              <h3 className="font-medium text-gray-900 hover:text-green-600 transition-colors line-clamp-2 min-h-[48px]">
+                              <h3 className="font-medium text-gray-900 hover:text-[#194f91] transition-colors line-clamp-2 min-h-[48px]">
                                 {product.name}
                               </h3>
                             </Link>
                             <div className="mt-2 flex justify-between items-center">
                               <div>
-                                <p className="font-bold text-green-600">{formatCurrency(product.price)}</p>
+                                <p className="font-bold text-[#194f91]">{formatCurrency(product.price)}</p>
                                 {product.originalPrice && product.originalPrice > product.price && (
                                   <p className="text-gray-500 text-sm line-through">
                                     {formatCurrency(product.originalPrice)}
                                   </p>
                                 )}
                               </div>
-                              <Button size="sm" className="bg-green-600 hover:bg-green-700">
+                              <Button size="sm" className="bg-[#00335f] hover:bg-green-700">
                                 <ShoppingCart className="h-4 w-4 mr-1" />
                                 <span>Mua</span>
                               </Button>

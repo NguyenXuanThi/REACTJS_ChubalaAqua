@@ -1,5 +1,5 @@
 "use client"
-
+import logo from "../public/img/Logo.png"
 import Link from "next/link"
 import { Search, ShoppingCart, Menu, Phone, User, LogOut, Heart, Package } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -20,10 +20,10 @@ export default function Header() {
   const pathname = usePathname()
 
   return (
-    <header className="bg-green-600 text-white">
+    <header className="bg-[#194f91] text-white">
       <div className="container mx-auto px-4">
         {/* Top header with contact info */}
-        <div className="py-2 flex justify-between items-center text-sm border-b border-green-500">
+        <div className="py-2 flex justify-between items-center text-sm border-b border-[#00335f]">
           <div className="flex items-center">
             <Phone className="h-4 w-4 mr-2" />
             <span>Hotline: 0123.456.789</span>
@@ -77,7 +77,7 @@ export default function Header() {
         <div className="py-4 flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-4 md:mb-0">
             <Link href="/" className="text-2xl font-bold">
-              CÁ CẢNH THIÊN ĐỨC
+                          <img src={logo.src} alt="Logo" className="h-24 w-27 mr-2 rounded-xl" />
             </Link>
           </div>
 
@@ -97,7 +97,7 @@ export default function Header() {
             </div>
 
             <Link href="/cart">
-              <Button variant="outline" className="bg-green-700 hover:bg-green-800 border-none relative">
+              <Button variant="outline" className="bg-[#00335f] hover:bg-green-800 border-none relative">
                 <ShoppingCart className="h-5 w-5 mr-2" />
                 <span>Giỏ hàng</span>
                 {itemCount > 0 && (

@@ -30,7 +30,7 @@ export default function GoogleMapComponent() {
         const marker = new google.maps.Marker({
           position: storeLocation,
           map: map,
-          title: "Cá Cảnh Thiên Đức",
+          title: "Cá Cảnh Chubala Aqua",
           animation: google.maps.Animation.DROP,
         })
 
@@ -38,7 +38,7 @@ export default function GoogleMapComponent() {
         const infoWindow = new google.maps.InfoWindow({
           content: `
             <div style="padding: 8px; max-width: 200px;">
-              <h3 style="font-weight: bold; margin-bottom: 5px;">Cá Cảnh Thiên Đức</h3>
+              <h3 style="font-weight: bold; margin-bottom: 5px;">Cá Cảnh Chubala Aqua</h3>
               <p style="margin: 0;">123 Đường ABC, Phường XYZ, Quận 1, TP. Hồ Chí Minh</p>
               <p style="margin: 5px 0 0;">Điện thoại: 0123.456.789</p>
             </div>
@@ -104,7 +104,7 @@ export default function GoogleMapComponent() {
           <div className="text-red-500 text-center p-4">
             <p>{mapError}</p>
             <button
-              className="mt-2 px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700"
+              className="mt-2 px-4 py-2 bg-[#00335f] text-white rounded hover:bg-green-700"
               onClick={() => window.location.reload()}
             >
               Tải lại
@@ -116,14 +116,14 @@ export default function GoogleMapComponent() {
       <div ref={mapRef} className="w-full h-full" />
 
       <div className="absolute bottom-4 left-4 bg-white p-3 rounded-md shadow-md z-10 text-sm">
-        <div className="font-bold mb-1">Cá Cảnh Thiên Đức</div>
+        <div className="font-bold mb-1">Cá Cảnh Chubala Aqua</div>
         <div>123 Đường ABC, Phường XYZ, Quận 1, TP. Hồ Chí Minh</div>
         <div className="mt-1">
           <a
             href="https://goo.gl/maps/YourGoogleMapsLink"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-green-600 hover:underline"
+            className="text-[#194f91] hover:underline"
           >
             Chỉ đường
           </a>

@@ -258,7 +258,7 @@ export default function ProfilePage() {
                       height={100}
                       className="rounded-full"
                     />
-                    <button className="absolute bottom-0 right-0 bg-green-600 text-white p-1 rounded-full">
+                    <button className="absolute bottom-0 right-0 bg-[#00335f] text-white p-1 rounded-full">
                       <Pencil className="h-4 w-4" />
                     </button>
                   </div>
@@ -269,7 +269,7 @@ export default function ProfilePage() {
                 <nav className="space-y-1">
                   <Link
                     href="/account/profile"
-                    className="flex items-center space-x-2 px-3 py-2 rounded-md bg-green-50 text-green-600 font-medium"
+                    className="flex items-center space-x-2 px-3 py-2 rounded-md bg-green-50 text-[#194f91] font-medium"
                   >
                     <User className="h-5 w-5" />
                     <span>Thông tin tài khoản</span>
@@ -350,7 +350,7 @@ export default function ProfilePage() {
                         </div>
                       </CardContent>
                       <CardFooter className="flex justify-end">
-                        <Button type="submit" className="bg-green-600 hover:bg-green-700">
+                        <Button type="submit" className="bg-[#00335f] hover:bg-green-700">
                           Lưu thay đổi
                         </Button>
                       </CardFooter>
@@ -425,7 +425,7 @@ export default function ProfilePage() {
                               <Button type="button" variant="outline" onClick={() => setShowAddressForm(false)}>
                                 Hủy
                               </Button>
-                              <Button type="submit" className="bg-green-600 hover:bg-green-700">
+                              <Button type="submit" className="bg-[#00335f] hover:bg-green-700">
                                 Lưu địa chỉ
                               </Button>
                             </div>
@@ -471,7 +471,7 @@ export default function ProfilePage() {
                               <Button type="button" variant="outline" onClick={() => setEditingAddress(null)}>
                                 Hủy
                               </Button>
-                              <Button type="submit" className="bg-green-600 hover:bg-green-700">
+                              <Button type="submit" className="bg-[#00335f] hover:bg-green-700">
                                 Cập nhật
                               </Button>
                             </div>

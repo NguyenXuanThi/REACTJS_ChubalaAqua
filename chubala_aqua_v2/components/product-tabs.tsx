@@ -128,11 +128,11 @@ export default function ProductTabs({ product }: ProductTabsProps) {
               </tr>
               <tr className="border-b">
                 <td className="py-2 px-4 font-medium bg-gray-50">Thương hiệu</td>
-                <td className="py-2 px-4">Cá Cảnh Thiên Đức</td>
+                <td className="py-2 px-4">Cá Cảnh Chubala Aqua</td>
               </tr>
               <tr className="border-b">
                 <td className="py-2 px-4 font-medium bg-gray-50">Xuất xứ</td>
-                <td className="py-2 px-4">Việt Nam</td>
+                <td className="py-2 px-4">Chubala Aqua</td>
               </tr>
               <tr className="border-b">
                 <td className="py-2 px-4 font-medium bg-gray-50">Trọng lượng</td>
@@ -193,7 +193,7 @@ export default function ProductTabs({ product }: ProductTabsProps) {
                       />
                     </div>
                     <div className="flex gap-2">
-                      <Button type="submit" className="bg-green-600 hover:bg-green-700" disabled={isSubmitting}>
+                      <Button type="submit" className="bg-[#00335f] hover:bg-green-700" disabled={isSubmitting}>
                         {isSubmitting ? "Đang gửi..." : userReview ? "Cập nhật đánh giá" : "Gửi đánh giá"}
                       </Button>
                       <Button
@@ -209,7 +209,7 @@ export default function ProductTabs({ product }: ProductTabsProps) {
                 </div>
               ) : (
                 <div className="mb-6">
-                  <Button onClick={() => setShowReviewForm(true)} className="bg-green-600 hover:bg-green-700">
+                  <Button onClick={() => setShowReviewForm(true)} className="bg-[#00335f] hover:bg-green-700">
                     {userReview ? "Chỉnh sửa đánh giá của bạn" : "Viết đánh giá"}
                   </Button>
                 </div>

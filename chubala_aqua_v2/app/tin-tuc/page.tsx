@@ -40,7 +40,7 @@ export default function BlogPage() {
       <div className="bg-gray-100 py-3 border-b">
         <div className="container mx-auto px-4">
           <div className="flex items-center text-sm text-gray-600">
-            <Link href="/" className="hover:text-green-600">
+            <Link href="/" className="hover:text-[#194f91]">
               Trang chủ
             </Link>
             <ChevronRight className="h-3 w-3 mx-2" />
@@ -82,11 +82,11 @@ export default function BlogPage() {
                     </div>
                   </div>
                   <Link href={`/tin-tuc/${post.slug}`}>
-                    <h3 className="font-bold text-lg mb-2 hover:text-green-600 line-clamp-2">{post.title}</h3>
+                    <h3 className="font-bold text-lg mb-2 hover:text-[#194f91] line-clamp-2">{post.title}</h3>
                   </Link>
                   <p className="text-gray-600 text-sm line-clamp-3 mb-3">{post.excerpt}</p>
                   <Link href={`/tin-tuc/${post.slug}`}>
-                    <Button variant="outline" className="text-green-600 border-green-600 hover:bg-green-50">
+                    <Button variant="outline" className="text-[#194f91] border-green-600 hover:bg-green-50">
                       Đọc tiếp
                     </Button>
                   </Link>
@@ -154,12 +154,12 @@ export default function BlogPage() {
                             </div>
                           </div>
                           <Link href={`/tin-tuc/${post.slug}`}>
-                            <h3 className="font-bold text-lg mb-2 hover:text-green-600">{post.title}</h3>
+                            <h3 className="font-bold text-lg mb-2 hover:text-[#194f91]">{post.title}</h3>
                           </Link>
                           <p className="text-gray-600 text-sm mb-3">{post.excerpt}</p>
                           <div className="flex items-center">
                             <Link href={`/tin-tuc/${post.slug}`}>
-                              <Button variant="outline" className="text-green-600 border-green-600 hover:bg-green-50">
+                              <Button variant="outline" className="text-[#194f91] border-green-600 hover:bg-green-50">
                                 Đọc tiếp
                               </Button>
                             </Link>
@@ -203,14 +203,14 @@ export default function BlogPage() {
                                 </div>
                               </div>
                               <Link href={`/tin-tuc/${post.slug}`}>
-                                <h3 className="font-bold text-lg mb-2 hover:text-green-600">{post.title}</h3>
+                                <h3 className="font-bold text-lg mb-2 hover:text-[#194f91]">{post.title}</h3>
                               </Link>
                               <p className="text-gray-600 text-sm mb-3">{post.excerpt}</p>
                               <div className="flex items-center">
                                 <Link href={`/tin-tuc/${post.slug}`}>
                                   <Button
                                     variant="outline"
-                                    className="text-green-600 border-green-600 hover:bg-green-50"
+                                    className="text-[#194f91] border-green-600 hover:bg-green-50"
                                   >
                                     Đọc tiếp
                                   </Button>
@@ -230,7 +230,7 @@ export default function BlogPage() {
                   <Button variant="outline" size="icon" disabled>
                     <ChevronRight className="h-4 w-4 rotate-180" />
                   </Button>
-                  <Button variant="outline" size="sm" className="bg-green-600 text-white hover:bg-green-700">
+                  <Button variant="outline" size="sm" className="bg-[#00335f] text-white hover:bg-green-700">
                     1
                   </Button>
                   <Button variant="outline" size="sm">
@@ -294,7 +294,7 @@ export default function BlogPage() {
                       </Link>
                       <div>
                         <Link href={`/tin-tuc/${post.slug}`}>
-                          <h4 className="font-medium text-sm hover:text-green-600 line-clamp-2">{post.title}</h4>
+                          <h4 className="font-medium text-sm hover:text-[#194f91] line-clamp-2">{post.title}</h4>
                         </Link>
                         <div className="flex items-center text-xs text-gray-500 mt-1">
                           <Calendar className="h-3 w-3 mr-1" />

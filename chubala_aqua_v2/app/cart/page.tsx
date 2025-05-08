@@ -44,7 +44,7 @@ export default function CartPage() {
           <div className="bg-white rounded-lg shadow-md p-8 text-center">
             <div className="text-gray-500 mb-4">Giỏ hàng của bạn đang trống</div>
             <Link href="/thuc-an-ca-canh">
-              <Button className="bg-green-600 hover:bg-green-700">
+              <Button className="bg-[#00335f] hover:bg-green-700">
                 <ChevronLeft className="h-4 w-4 mr-2" />
                 Tiếp tục mua sắm
               </Button>
@@ -137,7 +137,7 @@ export default function CartPage() {
 
               <div className="mt-4 flex justify-between items-center">
                 <Link href="/thuc-an-ca-canh">
-                  <Button variant="outline" className="text-green-600 border-green-600">
+                  <Button variant="outline" className="text-[#194f91] border-green-600">
                     <ChevronLeft className="h-4 w-4 mr-2" />
                     Tiếp tục mua sắm
                   </Button>
@@ -185,7 +185,7 @@ export default function CartPage() {
                     />
                     <Button
                       variant="outline"
-                      className="border-green-600 text-green-600"
+                      className="border-green-600 text-[#194f91]"
                       onClick={handleApplyCoupon}
                       disabled={isApplyingCoupon || !couponCode}
                     >
@@ -195,7 +195,7 @@ export default function CartPage() {
                 </div>
 
                 <Link href="/checkout">
-                  <Button className="w-full bg-green-600 hover:bg-green-700 py-6">TIẾN HÀNH THANH TOÁN</Button>
+                  <Button className="w-full bg-[#00335f] hover:bg-green-700 py-6">TIẾN HÀNH THANH TOÁN</Button>
                 </Link>
               </div>
             </div>

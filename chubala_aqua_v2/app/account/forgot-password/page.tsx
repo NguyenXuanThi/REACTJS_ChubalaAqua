@@ -67,7 +67,7 @@ export default function ForgotPasswordPage() {
                   Không nhận được email? Kiểm tra thư mục spam hoặc{" "}
                   <button
                     type="button"
-                    className="text-green-600 hover:underline font-medium"
+                    className="text-[#194f91] hover:underline font-medium"
                     onClick={() => setIsSubmitted(false)}
                   >
                     thử lại
@@ -99,13 +99,13 @@ export default function ForgotPasswordPage() {
                     {error && <p className="text-red-500 text-sm">{error}</p>}
                   </div>
 
-                  <Button type="submit" className="w-full bg-green-600 hover:bg-green-700 py-6" disabled={isLoading}>
+                  <Button type="submit" className="w-full bg-[#00335f] hover:bg-green-700 py-6" disabled={isLoading}>
                     {isLoading ? "ĐANG XỬ LÝ..." : "GỬI YÊU CẦU"}
                   </Button>
                 </form>
 
                 <div className="mt-6 text-center">
-                  <Link href="/account/login" className="text-green-600 hover:underline font-medium">
+                  <Link href="/account/login" className="text-[#194f91] hover:underline font-medium">
                     Quay lại đăng nhập
                   </Link>
                 </div>

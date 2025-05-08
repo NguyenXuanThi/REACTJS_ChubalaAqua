@@ -240,18 +240,18 @@ export default function RegisterPage() {
                 />
                 <Label htmlFor="agreeTerms" className="text-sm leading-tight">
                   Tôi đồng ý với{" "}
-                  <Link href="/terms" className="text-green-600 hover:underline">
+                  <Link href="/terms" className="text-[#194f91] hover:underline">
                     Điều khoản dịch vụ
                   </Link>{" "}
                   và{" "}
-                  <Link href="/privacy" className="text-green-600 hover:underline">
+                  <Link href="/privacy" className="text-[#194f91] hover:underline">
                     Chính sách bảo mật
                   </Link>
                 </Label>
               </div>
               {errors.agreeTerms && <p className="text-red-500 text-sm">{errors.agreeTerms}</p>}
 
-              <Button type="submit" className="w-full bg-green-600 hover:bg-green-700" disabled={isLoading}>
+              <Button type="submit" className="w-full bg-[#00335f] hover:bg-green-700" disabled={isLoading}>
                 {isLoading ? "ĐANG XỬ LÝ..." : "ĐĂNG KÝ"}
               </Button>
             </form>
@@ -259,7 +259,7 @@ export default function RegisterPage() {
             <div className="mt-6 text-center">
               <p className="text-gray-600">
                 Bạn đã có tài khoản?{" "}
-                <Link href="/account/login" className="text-green-600 hover:underline font-medium">
+                <Link href="/account/login" className="text-[#194f91] hover:underline font-medium">
                   Đăng nhập
                 </Link>
               </p>

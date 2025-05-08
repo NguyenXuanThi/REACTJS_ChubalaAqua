@@ -108,11 +108,11 @@ export default function CategoryPage() {
       <div className="bg-gray-100 py-3 border-b">
         <div className="container mx-auto px-4">
           <div className="flex items-center text-sm text-gray-600">
-            <Link href="/" className="hover:text-green-600">
+            <Link href="/" className="hover:text-[#194f91]">
               Trang chủ
             </Link>
             <ChevronRight className="h-3 w-3 mx-2" />
-            <Link href={isFishCategory ? "/ca-canh" : "/thuc-an-ca-canh"} className="hover:text-green-600">
+            <Link href={isFishCategory ? "/ca-canh" : "/thuc-an-ca-canh"} className="hover:text-[#194f91]">
               {isFishCategory ? "Cá cảnh" : "Thức ăn cá cảnh"}
             </Link>
             <ChevronRight className="h-3 w-3 mx-2" />
@@ -161,7 +161,7 @@ export default function CategoryPage() {
                       </Link>
                       <div className="p-3">
                         <Link href={`${detailUrlPrefix}/${product.id}`}>
-                          <h3 className="font-medium text-sm mb-2 hover:text-green-600 line-clamp-2 min-h-[2.5rem]">
+                          <h3 className="font-medium text-sm mb-2 hover:text-[#194f91] line-clamp-2 min-h-[2.5rem]">
                             {product.name}
                           </h3>
                         </Link>
@@ -176,7 +176,7 @@ export default function CategoryPage() {
                         </div>
 
                         <Button
-                          className="w-full bg-green-600 hover:bg-green-700 text-white text-sm"
+                          className="w-full bg-[#00335f] hover:bg-green-700 text-white text-sm"
                           onClick={() => handleAddToCart(product)}
                           disabled={isAdding[product.id] || !product.inStock}
                         >

@@ -3,7 +3,7 @@ import { Facebook, Twitter, Instagram, Mail, Phone, MapPin } from 'lucide-react'
 
 export default function Footer() {
   return (
-    <footer className="bg-green-600 text-white pt-10 pb-6">
+    <footer className="bg-[#194f91]  text-white pt-10 pb-6">
       <div className="container mx-auto px-4">
         {/* Thay đổi grid từ 4 cột thành 3 cột */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -11,7 +11,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">VỀ CHÚNG TÔI</h3>
             <p className="text-sm mb-4">
-              Cá Cảnh Thiên Đức chuyên cung cấp các loại cá cảnh chất lượng cao, đảm bảo sức khỏe và vẻ đẹp cho bể cá
+              Cá Cảnh Chubala Aqua chuyên cung cấp các loại cá cảnh chất lượng cao, đảm bảo sức khỏe và vẻ đẹp cho bể cá
               của bạn.
             </p>
             <div className="flex space-x-3">
@@ -41,7 +41,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 flex-shrink-0" />
-                <span>info@cacanhthienduc.com</span>
+                <span>info@cacanhchubalaaqua.com</span>
               </li>
             </ul>
           </div>
@@ -86,8 +86,8 @@ export default function Footer() {
           {/* Xóa phần Newsletter */}
         </div>
 
-        <div className="border-t border-green-500 mt-8 pt-6 text-center text-sm">
-          <p>© {new Date().getFullYear()} Cá Cảnh Thiên Đức. Tất cả quyền được bảo lưu.</p>
+        <div className="border-t border-[#00335f] mt-8 pt-6 text-center text-sm">
+          <p>© {new Date().getFullYear()} Cá Cảnh Chubala Aqua. Tất cả quyền được bảo lưu.</p>
         </div>
       </div>
     </footer>

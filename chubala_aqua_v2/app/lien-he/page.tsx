@@ -82,7 +82,7 @@ export default function ContactPage() {
 
                   <div>
                     <h3 className="font-medium text-gray-700">Email chúng tôi</h3>
-                    <p className="text-gray-600 mt-1">info@cacanhthienduc.com</p>
+                    <p className="text-gray-600 mt-1">info@cacanhchubalaaqua.com</p>
                   </div>
 
                   <div>
@@ -166,7 +166,7 @@ export default function ContactPage() {
                     </a>
                     <a
                       href="#"
-                      className="bg-green-600 text-white p-2 rounded-full hover:bg-green-700 transition-colors"
+                      className="bg-[#00335f] text-white p-2 rounded-full hover:bg-green-700 transition-colors"
                       aria-label="Zalo"
                     >
                       <svg
@@ -257,17 +257,17 @@ export default function ContactPage() {
 
                   <div className="text-xs text-gray-500">
                     Trang này được bảo vệ bởi reCAPTCHA và tuân theo{" "}
-                    <a href="#" className="text-green-600 hover:underline">
+                    <a href="#" className="text-[#194f91] hover:underline">
                       Chính sách bảo mật
                     </a>{" "}
                     và{" "}
-                    <a href="#" className="text-green-600 hover:underline">
+                    <a href="#" className="text-[#194f91] hover:underline">
                       Điều khoản dịch vụ
                     </a>{" "}
                     của Google.
                   </div>
 
-                  <Button type="submit" className="bg-green-600 hover:bg-green-700 w-full" disabled={isSubmitting}>
+                  <Button type="submit" className="bg-[#00335f] hover:bg-green-700 w-full" disabled={isSubmitting}>
                     {isSubmitting ? (
                       "Đang gửi..."
                     ) : (

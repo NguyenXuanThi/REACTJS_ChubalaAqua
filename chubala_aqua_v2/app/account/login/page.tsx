@@ -149,12 +149,12 @@ export default function LoginPage() {
                     Ghi nhớ đăng nhập
                   </Label>
                 </div>
-                <Link href="/account/forgot-password" className="text-sm text-green-600 hover:underline">
+                <Link href="/account/forgot-password" className="text-sm text-[#194f91] hover:underline">
                   Quên mật khẩu?
                 </Link>
               </div>
 
-              <Button type="submit" className="w-full bg-green-600 hover:bg-green-700" disabled={isLoading}>
+              <Button type="submit" className="w-full bg-[#00335f] hover:bg-green-700" disabled={isLoading}>
                 {isLoading ? "ĐANG XỬ LÝ..." : "ĐĂNG NHẬP"}
               </Button>
             </form>
@@ -162,7 +162,7 @@ export default function LoginPage() {
             <div className="mt-6 text-center">
               <p className="text-gray-600">
                 Bạn chưa có tài khoản?{" "}
-                <Link href="/account/register" className="text-green-600 hover:underline font-medium">
+                <Link href="/account/register" className="text-[#194f91] hover:underline font-medium">
                   Đăng ký ngay
                 </Link>
               </p>

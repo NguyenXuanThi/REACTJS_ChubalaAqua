@@ -50,27 +50,27 @@ export default function Sidebar({ className, activeCategory }: SidebarProps) {
   // Sản phẩm nổi bật với ID thực tế từ dữ liệu
   const featuredItems = isOnFoodPage
     ? [
-        { id: 1, name: "Thức ăn cá cảnh Tetra Bits Complete", price: "120.000₫" },
-        { id: 2, name: "Thức ăn cá La Hán Okiko Platinum", price: "180.000₫" },
-        { id: 3, name: "Thức ăn cá Koi Hikari Growth", price: "250.000₫" },
+        { id: 1, name: "Thức ăn cá cảnh Tetra Bits Complete", price: "120.000₫", img: "/img/1.png" },
+        { id: 2, name: "Thức ăn cá La Hán Okiko Platinum", price: "180.000₫", img: "/img/2.png"  },
+        { id: 3, name: "Thức ăn cá Koi Hikari Growth", price: "250.000₫", img: "/img/3.png"  },
       ]
     : [
-        { id: 1, name: "Cá Betta Halfmoon Đỏ", price: "150.000₫" },
-        { id: 4, name: "Cá Đĩa Blue Diamond", price: "450.000₫" },
-        { id: 6, name: "Cá Rồng Huyết Long", price: "15.000.000₫" },
+        { id: 1, name: "Cá Betta Halfmoon Đỏ", price: "150.000₫", img: "/img/ca1.jpg"  },
+        { id: 4, name: "Cá Đĩa Blue Diamond", price: "450.000₫", img: "/img/ca4.jpg"  },
+        { id: 6, name: "Cá Rồng Huyết Long", price: "15.000.000₫", img: "/img/ca6.jpg"  },
       ]
 
   return (
     <div className={className}>
       <div className="bg-white rounded-lg shadow-md overflow-hidden mb-6">
-        <div className="bg-green-600 text-white py-3 px-4 font-medium">{categoryTitle}</div>
+        <div className="bg-[#194f91] text-white py-3 px-4 font-medium">{categoryTitle}</div>
         <ul className="divide-y">
           {categories.map((category, index) => (
             <li key={index}>
               <Link
                 href={category.href}
                 className={`flex items-center justify-between py-3 px-4 hover:bg-gray-50 ${
-                  category.slug === activeCategory ? "text-green-600 font-medium" : ""
+                  category.slug === activeCategory ? "text-[#194f91] font-medium" : ""
                 }`}
               >
                 <span>{category.name}</span>
@@ -82,14 +82,16 @@ export default function Sidebar({ className, activeCategory }: SidebarProps) {
       </div>
 
       <div className="bg-white rounded-lg shadow-md overflow-hidden">
-        <div className="bg-green-600 text-white py-3 px-4 font-medium">{featuredTitle}</div>
+        <div className="bg-[#194f91]  text-white py-3 px-4 font-medium">{featuredTitle}</div>
         <div className="p-4 space-y-4">
           {featuredItems.map((item, index) => (
             <div key={index} className="flex gap-3">
-              <div className="w-20 h-20 bg-gray-200 rounded-md flex-shrink-0"></div>
+              <div className="w-20 h-20 bg-gray-200 rounded-md flex-shrink-0">
+              <img src={item.img} alt={item.name} className="w-full h-full object-cover"/>
+              </div>
               <div>
                 <Link href={isOnFoodPage ? `/thuc-an-ca-canh/${item.id}` : `/ca-canh/${item.id}`}>
-                  <h3 className="font-medium text-sm hover:text-green-600">{item.name}</h3>
+                  <h3 className="font-medium text-sm hover:text-[#194f91]">{item.name}</h3>
                 </Link>
                 <p className="text-red-600 font-medium text-sm mt-1">{item.price}</p>
               </div>

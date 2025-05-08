@@ -100,7 +100,7 @@ export default function FishFoodPage() {
 
   // Format price for display
   const formatPrice = (price: number) => {
-    return price.toLocaleString() + "₫"
+      return price.toLocaleString('vi-VN') + "₫"
   }
 
   const handleAddToCart = (product: any) => {
@@ -130,7 +130,7 @@ export default function FishFoodPage() {
       <div className="bg-gray-100 py-3 border-b">
         <div className="container mx-auto px-4">
           <div className="flex items-center text-sm text-gray-600">
-            <Link href="/" className="hover:text-green-600">
+            <Link href="/" className="hover:text-[#194f91]">
               Trang chủ
             </Link>
             <ChevronRight className="h-3 w-3 mx-2" />
@@ -146,12 +146,12 @@ export default function FishFoodPage() {
           {/* Sidebar - Desktop */}
           <div className="w-full md:w-64 hidden md:block">
             <div className="bg-white rounded-lg shadow-md overflow-hidden mb-6">
-              <div className="bg-green-600 text-white py-3 px-4 font-medium">DANH MỤC</div>
+              <div className="bg-[#194f91] text-white py-3 px-4 font-medium">DANH MỤC</div>
               <ul className="divide-y">
                 <li>
                   <Link
                     href="/thuc-an-ca-canh"
-                    className="flex items-center justify-between py-3 px-4 hover:bg-gray-50 text-green-600 font-medium"
+                    className="flex items-center justify-between py-3 px-4 hover:bg-gray-50 text-[#194f91] font-medium"
                   >
                     <span>Tất cả thức ăn cá cảnh</span>
                     <ChevronRight className="h-4 w-4" />
@@ -235,7 +235,7 @@ export default function FishFoodPage() {
                 </div>
 
                 <Button
-                  className="w-full bg-green-600 hover:bg-green-700"
+                  className="w-full bg-[#00335f] hover:bg-green-700"
                   onClick={() => {
                     setPriceRange([0, 500000])
                     setShowInStock(true)
@@ -352,7 +352,7 @@ export default function FishFoodPage() {
                         </div>
 
                         <Button
-                          className="w-full bg-green-600 hover:bg-green-700"
+                          className="w-full bg-[#00335f] hover:bg-green-700"
                           onClick={() => {
                             setPriceRange([0, 500000])
                             setShowInStock(true)
@@ -398,7 +398,7 @@ export default function FishFoodPage() {
                       </Link>
                       <div className="p-3">
                         <Link href={`/thuc-an-ca-canh/${product.id}`}>
-                          <h3 className="font-medium text-sm mb-2 hover:text-green-600 line-clamp-2 min-h-[2.5rem]">
+                          <h3 className="font-medium text-sm mb-2 hover:text-[#194f91] line-clamp-2 min-h-[2.5rem]">
                             {product.name}
                           </h3>
                         </Link>
@@ -413,7 +413,7 @@ export default function FishFoodPage() {
                         </div>
 
                         <Button
-                          className="w-full bg-green-600 hover:bg-green-700 text-white text-sm"
+                          className="w-full bg-[#00335f] hover:bg-green-700 text-white text-sm"
                           onClick={() => handleAddToCart(product)}
                           disabled={isAdding[product.id]}
                         >

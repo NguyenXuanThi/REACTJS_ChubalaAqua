@@ -47,7 +47,7 @@ export default function CheckoutPage() {
 
     // Thông báo và chuyển hướng
     setTimeout(() => {
-      alert("Đặt hàng thành công! Cảm ơn bạn đã mua sắm tại Cá Cảnh Thiên Đức.")
+      alert("Đặt hàng thành công! Cảm ơn bạn đã mua sắm tại Cá Cảnh Chubala Aqua.")
       clearCart()
       window.location.href = "/account/orders"
     }, 1500)
@@ -61,7 +61,7 @@ export default function CheckoutPage() {
           <div className="bg-white rounded-lg shadow-md p-8 text-center">
             <div className="text-gray-500 mb-4">Giỏ hàng của bạn đang trống</div>
             <Link href="/thuc-an-ca-canh">
-              <Button className="bg-green-600 hover:bg-green-700">
+              <Button className="bg-[#00335f] hover:bg-green-700">
                 <ChevronLeft className="h-4 w-4 mr-2" />
                 Tiếp tục mua sắm
               </Button>
@@ -158,13 +158,13 @@ export default function CheckoutPage() {
 
               <div className="flex justify-between">
                 <Link href="/cart">
-                  <Button type="button" variant="outline" className="text-green-600 border-green-600">
+                  <Button type="button" variant="outline" className="text-[#194f91] border-green-600">
                     <ChevronLeft className="h-4 w-4 mr-2" />
                     Quay lại giỏ hàng
                   </Button>
                 </Link>
 
-                <Button type="submit" className="bg-green-600 hover:bg-green-700" disabled={isSubmitting}>
+                <Button type="submit" className="bg-[#00335f] hover:bg-green-700" disabled={isSubmitting}>
                   {isSubmitting ? "ĐANG XỬ LÝ..." : "ĐẶT HÀNG"}
                 </Button>
               </div>

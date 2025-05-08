@@ -145,7 +145,7 @@ export default function OrderDetailPage() {
         <div className="container mx-auto px-4 py-8 flex-grow">
           <div className="max-w-6xl mx-auto">
             <div className="flex items-center mb-6">
-              <Link href="/account/orders" className="flex items-center text-green-600 hover:underline">
+              <Link href="/account/orders" className="flex items-center text-[#194f91] hover:underline">
                 <ArrowLeft className="h-4 w-4 mr-1" />
                 Quay lại đơn hàng
               </Link>
@@ -154,7 +154,7 @@ export default function OrderDetailPage() {
               <h2 className="text-xl font-bold mb-4">Không tìm thấy đơn hàng</h2>
               <p className="text-gray-500 mb-6">Đơn hàng bạn đang tìm kiếm không tồn tại hoặc đã bị xóa.</p>
               <Link href="/account/orders">
-                <Button className="bg-green-600 hover:bg-green-700">Quay lại danh sách đơn hàng</Button>
+                <Button className="bg-[#00335f] hover:bg-green-700">Quay lại danh sách đơn hàng</Button>
               </Link>
             </div>
           </div>
@@ -171,7 +171,7 @@ export default function OrderDetailPage() {
       <main className="container mx-auto px-4 py-8 flex-grow">
         <div className="max-w-6xl mx-auto">
           <div className="flex items-center mb-6">
-            <Link href="/account/orders" className="flex items-center text-green-600 hover:underline">
+            <Link href="/account/orders" className="flex items-center text-[#194f91] hover:underline">
               <ArrowLeft className="h-4 w-4 mr-1" />
               Quay lại đơn hàng
             </Link>
@@ -231,7 +231,7 @@ export default function OrderDetailPage() {
                     </div>
                     <div className="flex justify-between py-2 font-bold">
                       <span>Tổng cộng:</span>
-                      <span className="text-green-600">{formatCurrency(order.total)}</span>
+                      <span className="text-[#194f91]">{formatCurrency(order.total)}</span>
                     </div>
                   </div>
                 </CardContent>
@@ -278,7 +278,7 @@ export default function OrderDetailPage() {
               <Card>
                 <CardContent className="pt-6">
                   <div className="space-y-3">
-                    <Button className="w-full bg-green-600 hover:bg-green-700">Liên hệ hỗ trợ</Button>
+                    <Button className="w-full bg-[#00335f] hover:bg-green-700">Liên hệ hỗ trợ</Button>
                     <Button variant="outline" className="w-full">
                       Đánh giá sản phẩm
                     </Button>

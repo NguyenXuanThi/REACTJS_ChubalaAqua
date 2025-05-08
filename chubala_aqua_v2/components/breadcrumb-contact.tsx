@@ -6,7 +6,7 @@ export default function BreadcrumbContact() {
     <div className="bg-gray-100 py-3 border-b">
       <div className="container mx-auto px-4">
         <div className="flex items-center text-sm text-gray-600">
-          <Link href="/" className="flex items-center hover:text-green-600">
+          <Link href="/" className="flex items-center hover:text-[#194f91]">
             <Home className="h-4 w-4 mr-1" />
             Trang chủ
           </Link>

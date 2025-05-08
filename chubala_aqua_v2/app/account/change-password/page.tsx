@@ -123,7 +123,7 @@ export default function ChangePasswordPage() {
                   </Link>
                   <Link
                     href="/account/change-password"
-                    className="flex items-center space-x-2 px-3 py-2 rounded-md bg-green-50 text-green-600 font-medium"
+                    className="flex items-center space-x-2 px-3 py-2 rounded-md bg-green-50 text-[#194f91] font-medium"
                   >
                     <Key className="h-5 w-5" />
                     <span>Đổi mật khẩu</span>
@@ -163,7 +163,7 @@ export default function ChangePasswordPage() {
                     </div>
                   </CardContent>
                   <CardFooter>
-                    <Button type="submit" className="bg-green-600 hover:bg-green-700" disabled={isSubmitting}>
+                    <Button type="submit" className="bg-[#00335f] hover:bg-green-700" disabled={isSubmitting}>
                       {isSubmitting ? "Đang xử lý..." : "Cập nhật mật khẩu"}
                     </Button>
                   </CardFooter>

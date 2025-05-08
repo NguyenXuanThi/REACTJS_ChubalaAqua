@@ -58,7 +58,7 @@ export default function ProductCard({ product, detailUrl }: ProductCardProps) {
       </Link>
       <div className="p-3">
         <Link href={productDetailUrl}>
-          <h3 className="font-medium text-sm mb-2 hover:text-green-600 line-clamp-2 min-h-[2.5rem]">{product.name}</h3>
+          <h3 className="font-medium text-sm mb-2 hover:text-[#194f91] line-clamp-2 min-h-[2.5rem]">{product.name}</h3>
         </Link>
 
         <div className="flex items-center mb-3">
@@ -69,7 +69,7 @@ export default function ProductCard({ product, detailUrl }: ProductCardProps) {
         </div>
 
         <Button
-          className="w-full bg-green-600 hover:bg-green-700 text-white text-sm"
+          className="w-full bg-[#00335f] hover:bg-green-700 text-white text-sm"
           onClick={handleAddToCart}
           disabled={!product.inStock}
         >

@@ -10,7 +10,7 @@ import { Toaster } from "@/components/ui/toaster"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Cá Cảnh Thiên Đức - Cửa hàng cá cảnh uy tín",
+  title: "Cá Cảnh Chubala Aqua",
   description: "Cửa hàng cá cảnh uy tín, chất lượng cao với nhiều loại cá cảnh đẹp và thức ăn cho cá",
     generator: 'v0.dev'
 }
